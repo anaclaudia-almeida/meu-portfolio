@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  height: 100vh;
+  background-image: url("/src/imagens/imagem-fundo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
