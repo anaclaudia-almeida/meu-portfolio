@@ -132,7 +132,7 @@ section .btn-cv {
 section a :hover {
   background-color: rgba(255, 255, 255, .1);
   color: black;
-  border: 1px solid #0D0D0D;
+  border: 1px solid #8257E6;
   transform: scale(1.05);
 }
 
@@ -171,5 +171,6 @@ h3 {
 
 .especialidades .especialidades-box:hover{
   transform: scale(1.05);
+  cursor: pointer;
 }
 
