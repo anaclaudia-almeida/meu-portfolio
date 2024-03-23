@@ -1,20 +1,19 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 body {
   height: 100vh;
-  background-image: url("/src/imagens/imagem-fundo.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #D3CCE3;
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3);
 }
 
-.flex{
+.flex {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 0 auto;
 }
-
-

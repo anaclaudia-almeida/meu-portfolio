@@ -29,9 +29,9 @@
       <nav class="menu-navegacao-desktop">
         <ul>
           <!--<li><a href="#">Home</a></li>-->
-          <li><a href="#">Sobre mim</a></li>
-          <li><a href="#">Projetos</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#sobremim">Sobre mim</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="https://wa.me/5511959082944" target="_blank">Contato</a></li>
         </ul>
       </nav>
 
@@ -69,7 +69,7 @@
 
     <section class="especialidades">
       <div class="interface">
-        <h2 class="titulo">Minhas habilidades</h2>
+        <h2 class="titulo">Minhas habilidades<span>.</span></h2>
         <div class="flex">
           <div class="especialidades-box">
             <img class="img-stack" src="/src/imagens/HTML.png" alt="">
@@ -93,7 +93,7 @@
       </div><!--interface-->
     </section><!--especialidades-->
 
-    <section class="sobre-mim">
+    <section id="sobremim" class="sobre-mim">
       <div class="interface">
         <div class="flex">
           <div class="img-sobre">
@@ -108,29 +108,32 @@
     </section><!--sobre mim-->
 
 
-    <section class="portfolio">
+    <section id="projetos" class="portfolio">
       <div class="interface">
-        <h2 class="titulo">Meus Projetos</h2>
+        <h2 class="titulo">Meus Projetos<span>.</span></h2>
         <div class="flex">
-          <div class="img-port">
-
+          <div class="img-port" style="background-image: url(/src/imagens/projeto-dev-em-dobro.png);">
+          <div class="overlay">Projeto LP GTA V</div>
           </div>
-          <div class="img-port">
-            
-          </div>
-          <div class="img-port">
-            
-          </div>
-        </div>
+          <div class="img-port" style="background-image: url(src/imagens/projeto-dev-em-dobro.png);">
+            <div class="overlay">Projeto LP GTA V</div></div>
+          <div class="img-port" style="background-image: url(src/imagens/projeto-dev-em-dobro.png);">
+            <div class="overlay">Projeto LP GTA V</div></div>
+        </div><!--flex-->
       </div><!--interface-->
     </section><!--portfolio-->
   </main>
 
   <footer class="rodape">
-    <div class="redes sociais">
-
+    <div class="interface">
+      <div class="fundo-rodape">
+      <div class="icones-contato">
+        <h3>Entre em Contato</h3>
+        <a class="linkedin" href="https://www.linkedin.com/in/ana-claudia-rejei-de-almeida/" target="_blank"><img src="src/imagens/linkedIn.svg" alt="logo do linkedIn"></a>
+        <a class="github" href="https://github.com/anaclaudia-almeida" target="_blank"><img src="src/imagens/gitHub.svg" alt="logo do gitHub"></a>
+      </div>
+      </div>
     </div>
-
   </footer>
 
 
