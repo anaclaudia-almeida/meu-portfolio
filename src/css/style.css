@@ -22,7 +22,7 @@ header {
   width: 1000px;
   margin: auto;
   border-radius: 20px;
-  margin-top: 15px;
+  margin-top: 30px;
   margin-bottom: 100px;
   box-shadow: 7px 4px 4px #d3b7f488;
 }
@@ -106,7 +106,6 @@ p {
 .imagem {
   width: 250px;
   border-radius: 20px;
-  box-shadow: 7px 4px 4px #d3b7f488;
 }
 
 .imagem {
@@ -148,8 +147,11 @@ section a :hover {
 /*ESTILIZANDO AS ESPECIALIDADES */
 
 section.especialidades {
-  padding: 25px;
+  padding: 60px;
   margin: 0 80px 0;
+  align-items: center;
+  max-width: 1280px;
+  margin: auto;
 }
 
 h2.titulo{
@@ -167,10 +169,61 @@ h3 {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-top: 45px;
+  margin-bottom: 100px;
 }
 
 .especialidades .especialidades-box:hover{
   transform: scale(1.05);
   cursor: pointer;
+}
+
+.img-stack {
+  width: 80px;
+}
+
+/* ESTILIZANDO SOBRE MIM*/
+
+section .sobre-mim {
+  margin-left: 80px;
+  margin-right: 80px
+}
+
+section .sobre-mim .flex {
+  max-width: 1280px;
+  align-items: center;
+  width: 50%;
+}
+
+.sobre-mim .flex{
+  margin-left: 80px;
+  margin-right: 80px;
+  gap: 60px;
+}
+
+.img-sobre-perfil {
+  border-radius: 20px;
+  width: 350px;
+}
+
+.txt-sobre h2 span {
+  color: #8257E6;
+  display: block;
+}
+
+.txt-sobre-titulo {
+  margin-bottom: 20px;
+}
+
+h3 {
+  text-align: justify;
+
+}
+
+/* ESTILIZANDO OS MEUS PROJETOS*/
+
+section .portfolio .flex{
+  max-width: 1280px;
+  margin: 0 80px 0;
 }
 
