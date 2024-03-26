@@ -1,37 +1,23 @@
 /*ESTILIZANDO O CABEÇALHO*/
 
-.interface {
-  max-width: 1280px;
-  margin: 0 auto;
-  /*centralizada na tela*/
-  border-radius: 10px;
-}
-
-.logo {
-  width: 45px;
-}
-
-.logotipo {
-  margin: 5px;
-}
-
 header {
-  background-color: rgba(240, 255, 240, 0.328);
-  opacity: 0.8;
-  color: #0D0D0D;
+  color: rgba(0, 0, 0, 0.64);
   width: 1280px;
-  height: 95px;
   margin: auto;
-  border-radius: 20px;
   margin-top: 30px;
   margin-bottom: 100px;
-  box-shadow: 7px 4px 4px #d3b7f4a0;
 }
 
 header>.interface {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+header .logotipo img {
+  width: 70px;
 }
 
 header a {
@@ -40,68 +26,63 @@ header a {
   font-family: "Bebas Neue", sans-serif;
   font-size: 20px;
   gap: 10px;
+  display: inline-block;
 }
 
 header a:hover{
   color: #8257E6;
+  transform: scale(1.05);
+}
+
+header nav ul {
+  list-style-type: none;
 }
 
 header nav ul li {
   display: inline-block;
   flex-direction: column;
   align-items: center;
-  padding: 0 60px;
+  padding: 0 100px;
   color: black;
 }
 
 header .icones-contato img {
-  width: 35px;
-  margin-right: 10px;
-}
-
-main>.informacoes {
-  width: 100%;
+  width: 40px;
 }
 
 /*ESTILIZANDO O TOPO DO SITE*/
 
-.titulo span {
-  color: #8257E6;
-}
-
-.topo-do-site {
-  margin-top: 150px;
-  margin-bottom: 150px;
-}
-
 section .topo-do-site {
   padding: 40px 4%;
-
 }
 
 section .topo-do-site .flex {
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  gap: 50px;
 }
 
 .topo-do-site h1 {
   font-size: 35px;
+  padding-bottom: 25px;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .txt-topo-site {
   width: 60%;
-  line-height: 25px;
 }
 
-h1 {
-  padding-bottom: 25px;
-  font-family: "Bebas Neue", sans-serif;
-
-}
-
-h1 span {
+.topo-do-site .txt-topo-site h1 span {
   color: #8257E6;
+}
+
+.topo-do-site .txt-topo-site p {
+  margin: 20px 0 ;
+  font-family: "Anek Gujarati", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  padding-bottom: 25px;
 }
 
 h2 {
@@ -109,20 +90,9 @@ h2 {
   font-size: 35px;
 }
 
-p {
-  padding-bottom: 25px;
-  font-family: "Anek Gujarati", sans-serif;
-  font-size: 18px;
-  line-height: 30px;
-  text-align: justify;
-}
-
 .imagem {
-  width: 250px;
+  width: 200px;
   border-radius: 20px;
-}
-
-.imagem {
   position: relative;
   animation: flutuar 2s ease-in-out infinite alternate;
 }
@@ -154,11 +124,11 @@ section a :hover {
     top: 0;
   }
   100% {
-    top: 30px;
+    top: 20px;
   }
 }
 
-/*ESTILIZANDO AS ESPECIALIDADES */
+/*ESTILIZANDO AS HABILIDADES */
 
 section.especialidades {
   align-items: center;
@@ -170,6 +140,7 @@ section.especialidades {
 h2.titulo{
   font-size: 35px;
   padding-bottom: 40px;
+  padding-top: 40px;
   margin-top: 50px;
   text-align: center
 }
@@ -177,6 +148,15 @@ h2.titulo{
 h3 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 20px;
+}
+
+section .txt-sobre p {
+  margin: 20px 0 ;
+  font-family: "Anek Gujarati", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  padding-bottom: 25px;
 }
 
 .especialidades .especialidades-box {

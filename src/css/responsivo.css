@@ -1,0 +1,96 @@
+@media screen and (max-width: 1020px) {
+
+  /* CLASSE GERAL */
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .topo-do-site .flex {
+    flex-direction: column-reverse;
+  }
+
+  .interface {
+    max-width: 400px;
+    /*centralizada na tela*/
+    border-radius: 10px;
+  }
+
+  /* CABEÇALHO */
+
+  header {
+    max-width: 400px;
+  }
+
+  .logotipo {
+    margin: 0px;
+  }
+
+  .topo-do-site h1 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  
+  .txt-topo-site {
+    width: 100%;
+  }
+
+  .imagem {
+    width: 200px;
+  }
+
+  .imagem {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes flutuar {
+    0% {
+      top: 0;
+    }
+
+    100% {
+      top: 10px;
+    }
+  }
+
+  .txt-sobre-titulo {
+    width: 500px;
+  }
+
+
+  /* ESPECIALIDADES */
+
+  section.especialidades {
+    align-items: center;
+    max-width: 400px;
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+
+
+
+
+  /* SOBRE MIM */
+
+  section .sobre-mim .flex {
+    max-width: 400px;
+    align-items: center;
+    width: 50%;
+  }
+
+  .txt-sobre-titulo {
+    max-width: 400px;
+  }
+
+  .txt-sobre-titulo {
+    margin: 0;
+  }
+
+  .img-sobre-perfil {
+    border-radius: 20px;
+    width: 200px;
+  }
+
+
+}

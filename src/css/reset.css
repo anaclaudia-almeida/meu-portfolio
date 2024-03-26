@@ -5,10 +5,16 @@
 }
 
 body {
-  height: 100vh;
+  height: 100vh; /* Tomando todo o tamanho da tela */
   background: #D3CCE3;
   background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
   background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+}
+
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+  /*centralizada na tela*/
 }
 
 .flex {
