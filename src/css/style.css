@@ -8,7 +8,7 @@ header {
   margin-bottom: 100px;
 }
 
-header>.interface {
+header > .interface {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -29,8 +29,8 @@ header a {
   display: inline-block;
 }
 
-header a:hover{
-  color: #8257E6;
+header a:hover {
+  color: #8257e6;
   transform: scale(1.05);
 }
 
@@ -73,11 +73,11 @@ section .topo-do-site .flex {
 }
 
 .topo-do-site .txt-topo-site h1 span {
-  color: #8257E6;
+  color: #8257e6;
 }
 
 .topo-do-site .txt-topo-site p {
-  margin: 20px 0 ;
+  margin: 20px 0;
   font-family: "Anek Gujarati", sans-serif;
   font-size: 18px;
   line-height: 30px;
@@ -85,12 +85,12 @@ section .topo-do-site .flex {
   padding-bottom: 25px;
 }
 
-h2.titulo  {
+h2.titulo {
   font-family: "Bebas Neue", sans-serif;
   font-size: 35px;
   padding-bottom: 40px;
   padding-top: 40px;
-  text-align: center
+  text-align: center;
 }
 
 .imagem {
@@ -107,18 +107,18 @@ section a .btn-cv {
   font-size: 15px;
   appearance: none;
   border-radius: 10px;
-  background-color: #8257E6;
-  border: 0px solid #8257E6;
+  background-color: #8257e6;
+  border: 0px solid #8257e6;
   color: #fff;
   cursor: pointer;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
   margin: 5px;
 }
 
 section a :hover {
-  background-color: rgba(255, 255, 255, .1);
-  color: #8257E6;
-  border: 2px solid #8257E6;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #8257e6;
+  border: 2px solid #8257e6;
   transform: scale(1.05);
 }
 
@@ -138,14 +138,13 @@ section.especialidades {
   max-width: 1280px;
 }
 
-
 .especialidades h3 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 20px;
 }
 
 .especialidades h2 span {
-  color: #8257E6;
+  color: #8257e6;
 }
 
 .especialidades .especialidades-box {
@@ -154,7 +153,7 @@ section.especialidades {
   gap: 10px;
 }
 
-.especialidades .especialidades-box:hover{
+.especialidades .especialidades-box:hover {
   transform: scale(1.05);
   cursor: pointer;
 }
@@ -176,7 +175,7 @@ section .sobre-mim .flex {
   width: 50%;
 }
 
-.sobre-mim .flex{
+.sobre-mim .flex {
   margin-left: 80px;
   margin-right: 80px;
   gap: 60px;
@@ -200,23 +199,23 @@ section .txt-sobre h2 {
 }
 
 .txt-sobre h2 span {
-  color: #8257E6;
+  color: #8257e6;
   display: block;
 }
 
 /* ESTILIZANDO OS MEUS PROJETOS*/
 
-section .portfolio .flex{
+section .portfolio .flex {
   max-width: 1280px;
   margin: 0 80px 0;
   justify-content: space-around;
 }
 
 .portfolio h2 span {
-  color: #8257E6;
+  color: #8257e6;
 }
 
-.img-port{
+.img-port {
   width: 360px;
   height: 460px;
   background-size: cover;
@@ -226,7 +225,7 @@ section .portfolio .flex{
   position: relative;
 }
 
-.img-port:hover{
+.img-port:hover {
   background-position: 100% 100%;
 }
 
@@ -245,10 +244,10 @@ section .portfolio .flex{
   background-color: #0d0d0dbd;
   font-family: "Anek Gujarati", sans-serif;
   opacity: 0;
-  transition: .6s;
+  transition: 0.6s;
 }
 
-.overlay:hover{
+.overlay:hover {
   opacity: 1;
 }
 
@@ -275,4 +274,3 @@ footer {
   float: right;
   opacity: 0.5;
 }
-
