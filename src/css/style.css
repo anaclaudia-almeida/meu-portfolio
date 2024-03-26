@@ -85,9 +85,12 @@ section .topo-do-site .flex {
   padding-bottom: 25px;
 }
 
-h2 {
+h2.titulo  {
   font-family: "Bebas Neue", sans-serif;
   font-size: 35px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  text-align: center
 }
 
 .imagem {
@@ -97,7 +100,7 @@ h2 {
   animation: flutuar 2s ease-in-out infinite alternate;
 }
 
-section .btn-cv {
+section a .btn-cv {
   font-family: "Anek Gujarati", sans-serif;
   width: 200px;
   height: 60px;
@@ -105,7 +108,7 @@ section .btn-cv {
   appearance: none;
   border-radius: 10px;
   background-color: #8257E6;
-  border: 0px solid #0D0D0D;
+  border: 0px solid #8257E6;
   color: #fff;
   cursor: pointer;
   transition: all .3s ease-in;
@@ -114,8 +117,8 @@ section .btn-cv {
 
 section a :hover {
   background-color: rgba(255, 255, 255, .1);
-  color: black;
-  border: 1px solid #8257E6;
+  color: #8257E6;
+  border: 2px solid #8257E6;
   transform: scale(1.05);
 }
 
@@ -133,38 +136,22 @@ section a :hover {
 section.especialidades {
   align-items: center;
   max-width: 1280px;
-  margin-left: 180px;
-  margin-right: 180px;
 }
 
-h2.titulo{
-  font-size: 35px;
-  padding-bottom: 40px;
-  padding-top: 40px;
-  margin-top: 50px;
-  text-align: center
-}
 
-h3 {
+.especialidades h3 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 20px;
 }
 
-section .txt-sobre p {
-  margin: 20px 0 ;
-  font-family: "Anek Gujarati", sans-serif;
-  font-size: 18px;
-  line-height: 30px;
-  text-align: justify;
-  padding-bottom: 25px;
+.especialidades h2 span {
+  color: #8257E6;
 }
 
 .especialidades .especialidades-box {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-top: 45px;
-  margin-bottom: 100px;
 }
 
 .especialidades .especialidades-box:hover{
@@ -177,11 +164,6 @@ section .txt-sobre p {
 }
 
 /* ESTILIZANDO SOBRE MIM*/
-
-section .sobre-mim {
-  margin-left: 80px;
-  margin-right: 80px
-}
 
 .sobre-mim {
   margin-top: 150px;
@@ -202,21 +184,24 @@ section .sobre-mim .flex {
 
 .img-sobre-perfil {
   border-radius: 20px;
-  width: 350px;
+  width: 250px;
+}
+
+section .txt-sobre p {
+  font-family: "Anek Gujarati", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+section .txt-sobre h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 35px;
 }
 
 .txt-sobre h2 span {
   color: #8257E6;
   display: block;
-}
-
-.txt-sobre-titulo {
-  margin-bottom: 20px;
-}
-
-h3 {
-  text-align: justify;
-
 }
 
 /* ESTILIZANDO OS MEUS PROJETOS*/
@@ -225,6 +210,10 @@ section .portfolio .flex{
   max-width: 1280px;
   margin: 0 80px 0;
   justify-content: space-around;
+}
+
+.portfolio h2 span {
+  color: #8257E6;
 }
 
 .img-port{
@@ -270,7 +259,11 @@ footer {
   height: 300px;
   background-color: #8257e68a;
   margin-top: 30px;
+}
+
+.rodape a {
   color: #fff;
+  text-decoration: none;
 }
 
 .icones-contato {
