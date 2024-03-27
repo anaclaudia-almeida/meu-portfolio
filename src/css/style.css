@@ -27,9 +27,10 @@ header a {
   font-size: 20px;
   gap: 10px;
   display: inline-block;
+  cursor: pointer;
 }
 
-header a:hover{
+.menu-navegacao-desktop a:hover{
   color: #8257E6;
   transform: scale(1.05);
 }
@@ -38,17 +39,25 @@ header nav ul {
   list-style-type: none;
 }
 
-header nav ul li {
+header nav.menu-navegacao-desktop ul li {
   display: inline-block;
   flex-direction: column;
   align-items: center;
-  padding: 0 100px;
+  padding: 0 70px;
   color: black;
 }
 
 header .icones-contato img {
   width: 40px;
 }
+
+.btn-abrir-menu{
+  display: none;
+}
+
+ .menu-navegacao-mobile{
+  display: none;
+} 
 
 /*ESTILIZANDO O TOPO DO SITE*/
 
@@ -90,7 +99,7 @@ h2.titulo  {
   font-size: 35px;
   padding-bottom: 40px;
   padding-top: 40px;
-  text-align: center
+  text-align: center;
 }
 
 .imagem {
@@ -134,8 +143,9 @@ section a :hover {
 /*ESTILIZANDO AS HABILIDADES */
 
 section.especialidades {
+  margin: 0 auto;
   align-items: center;
-  max-width: 1280px;
+  width: 1280px;
 }
 
 
@@ -150,6 +160,7 @@ section.especialidades {
 
 .especialidades .especialidades-box {
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 10px;
 }
@@ -157,10 +168,6 @@ section.especialidades {
 .especialidades .especialidades-box:hover{
   transform: scale(1.05);
   cursor: pointer;
-}
-
-.img-stack {
-  width: 80px;
 }
 
 /* ESTILIZANDO SOBRE MIM*/

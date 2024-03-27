@@ -1,40 +1,44 @@
 @media screen and (max-width: 1020px) {
-
-  /* CLASSE GERAL */
-
-  .flex {
-    flex-direction: column;
-  }
+  /* ESTILIANDO A CLASSE GERAL */
 
   .topo-do-site .flex {
     flex-direction: column-reverse;
+    max-width: 640px;
   }
 
-  .interface {
-    max-width: 400px;
-    /*centralizada na tela*/
-    border-radius: 10px;
-  }
-
-  /* CABEÇALHO */
+  /* ESTILIZANDO O CABEÇALHO */
 
   header {
-    max-width: 400px;
+    max-width: 640px;
+  }
+
+  .menu-navegacao-mobile nav ul li a {
+    color: #fff;
+    font-size: 30px;
+    padding: 20px 10%;
+    padding-left: 80px;
+    max-width: 1000px;
+    display: block;
+  }
+  .menu-navegacao-mobile nav ul li a:hover {
+    background-color: #4c00ff;
+    color: #fff;
   }
 
   .logotipo {
     margin: 0px;
   }
 
+  /*ESTILIZANDO O TOPO DO SITE*/
+
   .topo-do-site h1 {
     font-size: 30px;
     margin-top: 30px;
   }
-  
+
   .txt-topo-site {
     width: 100%;
   }
-
   .imagem {
     width: 200px;
   }
@@ -58,29 +62,220 @@
     width: 500px;
   }
 
-
-  /* ESPECIALIDADES */
+  /* ESTILIZANDO AS HABILIDADES */
 
   section.especialidades {
     align-items: center;
-    max-width: 400px;
+    max-width: 640px;
     margin-left: 180px;
     margin-right: 180px;
   }
 
+  /* ESTILIZANDO SOBRE MIM */
 
-
-
-  /* SOBRE MIM */
+  .sobre-mim {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
 
   section .sobre-mim .flex {
-    max-width: 400px;
+    max-width: 640px;
     align-items: center;
     width: 50%;
   }
 
   .txt-sobre-titulo {
-    max-width: 400px;
+    max-width: 640px;
+  }
+
+  .txt-sobre-titulo {
+    margin: 0;
+  }
+
+  .img-sobre-perfil {
+    border-radius: 20px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 844px) {
+  /* ESTILIZANDO A CLASSE GERAL */
+
+  .topo-do-site .flex {
+    flex-direction: column-reverse;
+    max-width: 320px;
+  }
+
+  /* ESTILIZANDO O CABEÇALHO */
+
+  header {
+    max-width: 100%;
+    height: 20px;
+  }
+
+  header > .interface {
+    justify-content: space-between;
+  }
+
+  header .logotipo img {
+    width: 50px;
+  }
+  .logotipo {
+    margin: 0px;
+  }
+
+
+
+  /* ESTILIZANDO O MENU */
+
+  .btn-abrir-menu i {
+    color: #8257e6;
+    font-size: 40px;
+  }
+
+  .btn-abrir-menu {
+    display: block;
+  }
+
+  .menu-navegacao-mobile {
+    display: block;
+  }
+
+  .menu-navegacao-mobile {
+    height: 100vh;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+    background-color: #8257e6;
+    overflow: hidden;
+    transition: .2s;
+  }
+
+  .menu-navegacao-mobile nav ul {
+    text-align: right;
+  }
+
+  .menu-navegacao-mobile nav ul li a {
+    color: #fff;
+    font-size: 30px;
+    padding: 20px 10%;
+    padding-left: 80px;
+    max-width: 1000px;
+    display: block;
+  }
+  .menu-navegacao-mobile nav ul li a:hover {
+    background-color: #4c00ff;
+    color: #fff;
+  }
+
+  .overlay-menu {
+    background-color: #8257e69c;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 88888;
+    display: none;
+  }
+
+  .menu-navegacao-mobile.abrir-menu-mob {
+    width: 70%;
+  }
+
+  .menu-navegacao-mobile.abrir-menu-mob ˜ .overlay-menu {
+    display: block;
+  }
+
+  .menu-navegacao-mobile .btn-fechar i {
+    color: #4c00ff;
+    font-size: 40px;
+  }
+
+  .icones-contato {
+    display: none;
+  }
+
+  .menu-navegacao-desktop {
+    display: none;
+  }
+
+  /*ESTILIZANDO O TOPO DO SITE*/
+
+  .topo-do-site h1 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .txt-topo-site {
+    width: 100%;
+  }
+  .imagem {
+    width: 200px;
+  }
+
+  .imagem {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes flutuar {
+    0% {
+      top: 0;
+    }
+
+    100% {
+      top: 10px;
+    }
+  }
+
+  .txt-sobre-titulo {
+    width: 320px;
+  }
+
+  section a .btn-cv {
+    margin: auto;
+    width: 320px;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  /* ESTILIZANDO AS HABILIDADES */
+
+  section.especialidades {
+    align-items: center;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .flex {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .img-stack {
+    width: 50px;
+  }
+
+  /* ESTILIZANDO SOBRE MIM */
+
+  .sobre-mim {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  section .sobre-mim .flex {
+    max-width: 320px;
+    align-items: center;
+    width: 50%;
+  }
+
+  .txt-sobre-titulo {
+    max-width: 320px;
   }
 
   .txt-sobre-titulo {
@@ -92,5 +287,22 @@
     width: 200px;
   }
 
+  section .txt-sobre h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
 
+  .topo-do-site .flex {
+    padding: 0;
+  }
+  
+  .especialidades .flex {
+    padding: 0;
+  }
+  
+  .sobre-mim .flex {
+    padding: 0;
+  }
 }
+

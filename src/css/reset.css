@@ -6,9 +6,9 @@
 
 body {
   height: 100vh; /* Tomando todo o tamanho da tela */
-  background: #D3CCE3;
-  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
-  background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+  background: #d3cce3;
+  background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3);
+  background: linear-gradient(to right, #e9e4f0, #d3cce3);
 }
 
 .interface {
@@ -22,4 +22,19 @@ body {
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
+}
+
+.topo-do-site .flex {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.especialidades .flex {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.sobre-mim .flex {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
