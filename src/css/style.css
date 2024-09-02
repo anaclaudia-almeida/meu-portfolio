@@ -259,6 +259,42 @@ section .portfolio .flex{
   opacity: 1;
 }
 
+/* ESTILIZANDO CONTATO */
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#nome {
+  width: 400px;
+  height: 30px;
+}
+
+#email {
+  width: 600px;
+  height: 30px;
+}
+
+#mensagem {
+  width: 400px;
+  height: 250px;
+}
+
+#btn-enviar {
+  width: 120px;
+  height: 40px;
+  background-color: #8257E6;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  cursor: pointer;
+  appearance: none;
+  border: none;
+}
+
+
 /* ESTILIZANDO O RODAPE */
 
 footer {
